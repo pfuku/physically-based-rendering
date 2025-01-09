@@ -1,5 +1,675 @@
-﻿Build started 22.01.2017 02:43:15.
-
-Build succeeded.
-
-Time Elapsed 00:00:00.03
+﻿  camera.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(18,38): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(104,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(176,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(70,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(73,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(74,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(80,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(81,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(114,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(61,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(62,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(64,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(65,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(71,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(72,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'camera.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.h(122,19): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'camera.cpp')
+  
+  film.cpp
+  integrator.cpp
+  kdtree.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(104,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(176,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(70,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(73,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(74,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(80,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(81,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(114,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.h(122,19): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(61,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(62,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(64,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(65,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(71,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(72,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'kdtree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.cpp(45,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.cpp(84,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.cpp(95,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.cpp(118,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.cpp(163,20): warning C4018: '<': signed/unsigned mismatch
+  light.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(104,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(176,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'light.cpp')
+  
+  material.cpp
+  matrix.cpp
+  normal3.cpp
+  octree.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(70,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(73,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(74,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(80,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(81,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(114,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'octree.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(15,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(16,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(17,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(23,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(24,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(29,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(29,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(29,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(34,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(34,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(34,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(39,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(39,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(39,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(44,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(44,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(44,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(49,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(49,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(49,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(55,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(55,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(55,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(55,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(60,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(60,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(60,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(65,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(65,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(65,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(70,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(70,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(70,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(70,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(75,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(75,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(75,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(81,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(81,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(81,67): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(87,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(87,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(87,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.cpp(87,74): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  point3.cpp
+  primitive.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(104,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(176,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(70,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(73,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(74,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(80,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(81,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(114,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(61,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(62,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(64,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(65,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(71,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(72,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.h(122,19): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'primitive.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.cpp(24,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.cpp(30,18): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.cpp(41,3): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.cpp(46,3): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ray.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ray.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ray.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ray.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ray.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'ray.cpp')
+  
+  sampler.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(18,38): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'sampler.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'sampler.cpp')
+  
+  scene.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(18,38): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\sampler.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(104,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\light.h(176,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(70,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(73,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(74,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(80,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(81,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\octree.h(114,27): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(61,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(62,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(64,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(65,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(71,57): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\kdtree.h(72,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\primitive.h(122,19): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'scene.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,59): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,33): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,73): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,73): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,73): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,73): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(52,73): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,59): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,33): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,73): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,73): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,73): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,73): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(53,73): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,59): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,33): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,73): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,73): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,73): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,73): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(54,73): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(69,81): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(69,66): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(94,80): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(94,66): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,53): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,31): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,65): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,65): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,65): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,65): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(109,65): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,53): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,31): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,65): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,65): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,65): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,65): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(110,65): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,53): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,31): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,65): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,65): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,65): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,65): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(111,65): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,62): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,37): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,74): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,74): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,74): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,74): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(132,74): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,62): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,37): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,74): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,74): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,74): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,74): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(133,74): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,62): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,37): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,74): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,74): warning C4244:         with
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,74): warning C4244:         [
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,74): warning C4244:             T=unsigned char
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(134,74): warning C4244:         ]
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(140,38): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(141,38): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(142,38): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(165,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(274,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(472,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(429,19): warning C4101: 'minn': unreferenced local variable
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(429,14): warning C4101: 'maxx': unreferenced local variable
+  shape.cpp
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(115,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(118,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(119,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\ray.h(120,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(129,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(139,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(148,13): warning C4305: '=': truncation from 'double' to 'float'
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(160,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(161,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(162,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(168,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.h(200,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'shape.cpp')
+  
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.cpp(17,5): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\shape.cpp(50,5): warning C4996: '_strtime': This function or variable may be unsafe. Consider using _strtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  texture.cpp
+  vector3.cpp
+  Generating Code...
+C:\Users\ufukt\source\repos\physically-based-rendering\renderer\scene.cpp(363,1): warning C4715: 'scene::Scene::calculate_softshadow': not all control paths return a value
+  renderer.vcxproj -> C:\Users\ufukt\source\repos\physically-based-rendering\renderer\Release\renderer.lib
