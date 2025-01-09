@@ -1,5 +1,8 @@
 #include "scene.h"
 #include <time.h>
+#include <ppl.h>
+
+using namespace concurrency;
 
 namespace scene
 {
@@ -32,10 +35,59 @@ namespace scene
 		m_aa_on = false;		
 	}
 
+	void Scene::render_parallel_task(int x, CImg<unsigned char>* image, CImgDisplay& disp)
+	{
+		Intersection* intersection = new Intersection();		
+		output::Screen* screen = new output::Screen(disp.width, disp.height);
+		output::Sampler* sampler = new output::Sampler(1.0, 1.0, 0, screen);
+
+		for (int y = 0;y < screen->height();y++)
+		{
+			scene::Ray r;
+			sampler->next(x, y);
+			m_camera->generate_ray(sampler, r);
+			output::TRadiance rd = l(r, intersection);
+			screen->set_color(rd, x, y);
+
+			(*image)(screen->width() - 1 - x, screen->height() - 1 - y, 0) = 255 * screen->buffer(x, y).r;
+			(*image)(screen->width() - 1 - x, screen->height() - 1 - y, 1) = 255 * screen->buffer(x, y).g;
+			(*image)(screen->width() - 1 - x, screen->height() - 1 - y, 2) = 255 * screen->buffer(x, y).b;
+		}
+		disp.display(*image);
+
+		delete intersection;
+		delete screen;
+		delete sampler;
+	}
+
+	void Scene::render_parallel()
+	{		
+		const output::Screen* scr = m_sampler->screen();
+		char timeStr[9];
+		_strtime(timeStr);
+		std::cout << "> " << timeStr << " : " << "rendering..." << std::endl;
+		CImg<unsigned char>* image = new CImg<unsigned char>(scr->width(), scr->height(), 1, 3, 255);
+		CImgDisplay disp(*image, "pbrt - ufuk tiryaki @ bogazici university");
+		const unsigned char black[] = { 0,0,0 };
+		const unsigned char white[] = { 255,255,255 };
+
+		parallel_for(0, (int)scr->width(), [&](int x) {
+			render_parallel_task(x, image, disp);
+			});
+
+		_strtime(timeStr);
+		std::cout << "> " << timeStr << " : " << "rendering completed." << std::endl;
+
+		image->blur(0.5);
+		image->draw_text("ufuk tiryaki 2009 - bogazici university", 1, 1, white, black, 8);
+		disp.display(*image);
+		image->save_bmp("output.bmp");
+		while (!disp.is_closed) disp.wait();
+	}
+
 	void Scene::render()
 	{	
 		const output::Screen* scr = m_sampler->screen();
-
 		char timeStr [9];
 		_strtime( timeStr );
 		std::cout << "> " << timeStr << " : "<< "rendering..." << std::endl;	
@@ -126,6 +178,19 @@ namespace scene
 			if(light_intersect(r) == true)
 				return output::TRadiance(1.0,1.0,1.0);
 			
+			return m_background;
+		}
+	}
+
+	output::TRadiance Scene::l(const Ray& r, Intersection* intersection)
+	{
+		if (intersect(r, intersection) == true) {
+			return calculate_illumination(r, intersection);
+		}
+		else {
+			if (light_intersect(r) == true)
+				return output::TRadiance(1.0, 1.0, 1.0);
+
 			return m_background;
 		}
 	}

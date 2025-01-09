@@ -1,0 +1,1 @@
+C:\Users\ufukt\Source\Repos\physically-based-rendering\renderer\Debug\renderer.lib

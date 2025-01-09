@@ -43,17 +43,11 @@
    </Materials>
 
    <Lights>
-      <Light id="0" type="point">
+      <Light id="0" type="sky">
          <Position  x="0.0" y="7.0" z="-5.0"/>
          <Direction x="0.0" y="1.0" z="0.0"/>
          <Coefficient> 0.8 </Coefficient>
-      </Light>	
-	  
-	  <Light id="0" type="point">
-         <Position  x="0.0" y="0.0" z="-10.0"/>
-         <Direction x="0.0" y="1.0" z="0.0"/>
-         <Coefficient> 1.0 </Coefficient>
-      </Light>	
+      </Light>		 
    </Lights>
 
    <Camera type="perspective">
@@ -91,6 +85,7 @@
 
    <Properties>
 	  <AntiAlias> true </AntiAlias>
+	  <ParallelRender> true </ParallelRender>
    </Properties>
 
 </Scene>

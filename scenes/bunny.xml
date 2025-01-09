@@ -57,8 +57,8 @@
    </Camera>
 
    <Screen>
-      <Width>  400 </Width>
-      <Height> 400 </Height>
+      <Width>  800 </Width>
+      <Height> 800 </Height>
    </Screen>
 
    <Shapes>
@@ -85,6 +85,7 @@
 
    <Properties>
 	  <AntiAlias> true </AntiAlias>
+	  <ParallelRender> false </ParallelRender>
    </Properties>
    
 </Scene>

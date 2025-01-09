@@ -56,9 +56,12 @@ namespace scene
 			void antialias_on() { m_aa_on = true; };
 			void antialias_off() { m_aa_on = false; };
 			virtual void render() sealed;	
+			virtual void render_parallel();
+			void render_parallel_task(int x, CImg<unsigned char>* image, CImgDisplay& disp);
 		private:	
 			void initialize();			
-			output::TRadiance l(const Ray&);			
+			output::TRadiance l(const Ray&);		
+			output::TRadiance Scene::l(const Ray& r, Intersection* intersection);
 			output::TRadiance calculate_illumination(const Ray& r,Intersection* isect,int depth = 0,double n1 = 1.0);
 			output::TRadiance calculate_hardshadow(const Ray& r,Intersection* isect,Light* light);
 			output::TRadiance calculate_softshadow(const Ray& r,Intersection* isect,Light* light);	
@@ -73,8 +76,8 @@ namespace scene
 			Aggregate* m_aggregate;
 			//Light* m_light;			
 			std::vector<Light*> m_lights;
-			Camera* m_camera;
 			output::Sampler* m_sampler;
+			Camera* m_camera;		
 			output::Screen* m_screen;			
 			double m_screen_size;
 			output::TRadiance **m_buffer;				

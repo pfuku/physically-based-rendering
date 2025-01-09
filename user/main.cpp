@@ -16,6 +16,7 @@ scene::Camera* camera;
 output::Screen* screen;
 
 bool aa_on;
+bool parallel_run;
 
 bool load_scene(std::string filename) 
 {
@@ -226,11 +227,18 @@ bool load_scene(std::string filename)
 
 		TiXmlElement *props_root_element = primitive_root_element->NextSiblingElement();
 		TiXmlElement *antialias = props_root_element->FirstChildElement();
-		
+
 		if(strcmp(antialias->GetText(),"true") == 0)
 			aa_on = true;
 		else
 			aa_on = false;
+
+		TiXmlElement* parallel_render = antialias->NextSiblingElement();
+
+		if (strcmp(parallel_render->GetText(), "true") == 0)
+			parallel_run = true;
+		else
+			parallel_run = false;
 
 	}
 
@@ -256,7 +264,11 @@ int main(int argc, char *argv[])
 		else
 			sc->antialias_off();
 			
-		sc->render();		
+
+		if (parallel_run == true)
+			sc->render_parallel();
+		else
+			sc->render();
 	}	
 	return 0;
 }

@@ -33,6 +33,16 @@ namespace output
 			m_buffer[i][j].b = c.b;
 		};
 
+		~Screen() 
+		{ 
+			for (int i = 0; i < static_cast<int>(m_w); i++) 
+			{ 
+				delete[] m_buffer[i]; 
+			} 
+			
+			delete[] m_buffer; 
+		}
+
 	private:
 		double m_w;
 		double m_h;
